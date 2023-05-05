@@ -5,7 +5,7 @@ let is_published: boolean = true
 let level
 
 
-function render(document: any){
+function renderrender(document: any){
     console.log(document)
 }
  
