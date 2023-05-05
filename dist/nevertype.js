@@ -8,4 +8,3 @@ function processEvents() {
 }
 reject("...");
 console.log("Hello");
-//# sourceMappingURL=nevertype.js.map

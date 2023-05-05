@@ -6,4 +6,3 @@ let level;
 function renderrender(document) {
     console.log(document);
 }
-//# sourceMappingURL=index.js.map

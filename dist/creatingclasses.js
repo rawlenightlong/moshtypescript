@@ -9,7 +9,9 @@ class Account {
         if (amount <= 0) {
             throw new Error("Invalid Amount");
         }
-        this.balance = +amount;
+        this.balance += amount;
     }
 }
-//# sourceMappingURL=creatingclasses.js.map
+let account = new Account(4, "Rawle", 5000);
+account.depost(100);
+console.log(account instanceof Account);

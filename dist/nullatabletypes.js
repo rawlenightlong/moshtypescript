@@ -6,4 +6,3 @@ function greet(name) {
         console.log("Hola");
 }
 greet(null);
-//# sourceMappingURL=nullatabletypes.js.map

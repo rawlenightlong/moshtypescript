@@ -4,4 +4,3 @@ function render(document) {
         document.toUpperCase();
     }
 }
-//# sourceMappingURL=unknowntypes.js.map
