@@ -1,17 +1,20 @@
 "use strict";
 class Account {
-    constructor(id, owner, balance) {
+    constructor(id, owner, _balance) {
         this.id = id;
         this.owner = owner;
-        this.balance = balance;
+        this._balance = _balance;
     }
-    depost(amount) {
+    deposit(amount) {
         if (amount <= 0) {
             throw new Error("Invalid Amount");
         }
-        this.balance += amount;
+        this._balance += amount;
+    }
+    get balance() {
+        return this._balance;
     }
 }
 let account = new Account(4, "Rawle", 5000);
-account.depost(100);
-console.log(account instanceof Account);
+account.deposit(100);
+console.log(account.balance);
